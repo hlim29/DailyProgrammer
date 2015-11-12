@@ -14,9 +14,10 @@ public class Main {
 		long startTime = System.nanoTime();
 		List<Integer> array = generateFibSequence(0, 1, target, new ArrayList<Integer>());
 
-		int factor = 1;
+		
 
 		// Searches the array for the highest common factor in the sequence
+		int factor = 1;
 		Collections.reverse(array);
 		for (int e : array) {
 			if (target % e == 0 && e>1) {
@@ -26,11 +27,6 @@ public class Main {
 		}
 
 		List<Integer> output = generateFibSequence(0, factor, target, new ArrayList<Integer>());
-
-		// The generated array is missing the first two numbers in the sequence.
-		// This is a hack!
-		output.add(0, factor);
-		output.add(0, 0);
 
 		System.out.println(output);
 
@@ -46,6 +42,10 @@ public class Main {
 	}
 
 	private static List<Integer> generateFibSequence(int fib1, int fib2, int target, List<Integer> array) {
+		if (array.isEmpty()){
+			array.add(fib1);
+			array.add(fib2);
+		}
 		if (fib1 == Math.min(fib1, fib2)) {
 			fib1 = fib1 + fib2;
 		} else {
