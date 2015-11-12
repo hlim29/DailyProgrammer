@@ -9,3 +9,4 @@ My solutions for Reddit's DailyProgrammer puzzles. See https://reddit.com/r/dail
 |238i|Intermediate|falloutHacking|[Fallout Hacking Game](https://www.reddit.com/r/dailyprogrammer/comments/3qjnil/20151028_challenge_238_intermediate_fallout/)|
 |237i|Intermediate|heightMap|[Heighmap (sic) of boxes](https://www.reddit.com/r/dailyprogrammer/comments/3pnd3t/20151021_challenge_237_intermediate_heighmap_of/)|
 |232e|Easy|palindromes|[Palindromes](https://www.reddit.com/r/dailyprogrammer/comments/3kx6oh/20150914_challenge_232_easy_palindromes/)|
+|236i|Intermediate|fibonacciish|[Fibonacci-ish Sequence](https://www.reddit.com/r/dailyprogrammer/comments/3opin7/20151014_challenge_236_intermediate_fibonacciish/)|
